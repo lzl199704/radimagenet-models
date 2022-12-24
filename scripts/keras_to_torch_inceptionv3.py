@@ -9,7 +9,7 @@ import tensorflow as tf
 import os
 from tensorflow.keras.applications import InceptionResNetV2, ResNet50, InceptionV3, DenseNet121
 import torch
-from models.inception_v3 import Inception3
+from radimagenet_models.models.inception import Inception3
 #from torchvision.models import resnet50, densenet121,inception_v3
 
 os.environ["CUDA_VISIBLE_DEVICES"]='2'
